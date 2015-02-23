@@ -1,0 +1,73 @@
+
+body {
+  color:  #808080;
+  font-family: 'open sans','helvetica neue',helvetica,arial,sans-serif;
+  font-weight: 300;
+  margin: 0;
+  background: url("images/backgroundPatagonia.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*text stylings*/
+h1 {
+  display: inline-block;
+  padding-right: 45px;
+  font-size: 80px;
+  margin: 40px 0px 0px 40px;
+  border-right: 1px solid #404040;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 80px;
+  margin: 40px 0px 0px 40px;
+}
+
+h3 {
+  margin-left: 40px;
+  font-weight: bolder;
+}
+
+h4 {
+  margin-left: 40px;
+  border-bottom: 1px solid #404040;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+h5{
+  float: left;
+  margin-left: 0px;
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/*Contact Icons*/
+#surveylink{
+  background: url("images/Click-Here.png") no-repeat 0 0;
+  height: 100px;
+  width: 300px;
+ 
+}
+#linkedin:hover{
+  opacity: .5;
+}
+#gmail{
+  background: url("images/Click Here.png") no-repeat 0 0;
+  height: 100px;
+  width: 483px;
+  display: inline-block;
+  -moz-transition: opacity .15s; 
+}
+#gmail:hover{
+  opacity: .5;
+}
+#contactIcons{
+  height: 27px;
+  margin-left: 40px;
+}
